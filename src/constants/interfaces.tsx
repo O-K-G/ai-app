@@ -20,3 +20,8 @@ export interface MessageProps {
 export interface IconsProps {
   className?: string;
 }
+
+export interface ListItemProps {
+  value: string;
+  onClick: () => void;
+}

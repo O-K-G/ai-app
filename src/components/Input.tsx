@@ -1,7 +1,7 @@
 import { InputProps } from "@constants/interfaces";
 import { AssistantContext } from "@components/AssistantContextProvider";
 import { useContext } from "react";
-import SubmitIcon from "@/app/icons/Submit-icon";
+import SubmitIcon from "@icons/Submit-icon";
 
 const PLACEHOLDER_DEFAULT_VALUE = "What would you like to ask?";
 const SUBMIT_ARIA_LABEL = "Submit";
