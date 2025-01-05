@@ -8,7 +8,7 @@ export default function Input({ placeholderValue }: InputProps) {
   const { input, handleInputChange } = useContext(AssistantContext);
 
   return (
-    <div className="flex-center gap-4 h-16">
+    <div className="flex-center gap-4 h-16 font-roboto-regular">
       <input
         className="chat-input"
         value={input || ""}

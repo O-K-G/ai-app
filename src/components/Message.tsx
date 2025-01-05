@@ -13,7 +13,7 @@ export default function Message({ role, content }: MessageProps) {
 
   return (
     <div
-      className={`${assistantClassName} border border-white px-2 rounded-md w-fit mb-2`}
+      className={`${assistantClassName} bg-black/30 text-white p-4 rounded-xl w-fit mb-2 font-roboto-regular`}
     >
       <span className="font-bold">{speaker[role as keyof typeof speaker]}</span>
       &nbsp;
