@@ -12,7 +12,9 @@ export default function Message({ role, content }: MessageProps) {
   };
 
   return (
-    <div className={`${assistantClassName}`}>
+    <div
+      className={`${assistantClassName} border border-white px-2 rounded-md w-fit mb-2`}
+    >
       <span className="font-bold">{speaker[role as keyof typeof speaker]}</span>
       &nbsp;
       {content}
