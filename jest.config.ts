@@ -97,7 +97,11 @@ const config: Config = {
   // ],
 
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
-  // moduleNameMapper: {},
+  moduleNameMapper: {
+    "^@components/(.*)$": "<rootDir>/src/components/$1", // Use forward slashes here
+    "^@icons/(.*)$": "<rootDir>/src/app/icons/$1", // Forward slashes for icons
+    "^@constants/(.*)$": "<rootDir>/src/constants/$1", // Forward slashes for constants
+  },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
   // modulePathIgnorePatterns: [],
