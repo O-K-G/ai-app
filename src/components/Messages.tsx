@@ -7,7 +7,7 @@ export default function Messages() {
 
   if (messages.length > 0) {
     return (
-      <div className="mb-4 w-full overflow-y-scroll overflow-x-hidden">
+      <div className="mb-4 w-full overflow-y-auto overflow-x-hidden">
         {messages.map((message) => {
           const { id, role, content } = message || {};
 

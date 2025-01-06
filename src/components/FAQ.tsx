@@ -35,7 +35,7 @@ export default function Faq() {
   const dialogRef = useRef(null);
 
   return (
-    <div className="absolute top-0 left-0 m-4">
+    <div className="absolute top-0 left-0 ml-4 mt-10 lg:mt-4">
       <button
         className="flex-center outline-none group"
         type="button"
