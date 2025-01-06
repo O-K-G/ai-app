@@ -1,4 +1,4 @@
-import CancelIcon from "@icons/cancel-icon";
+import CancelIcon from "@icons/Cxl-icon";
 import { DialogProps } from "@constants/interfaces";
 
 const CANCEL_BUTTON_ARIA_LABEL = "Cancel";
