@@ -1,13 +1,13 @@
-// import type { Metadata } from "next";
+import type { Metadata } from "next";
 import React from "react";
 import "./globals.css";
 import localFont from "next/font/local";
 
-// const roboto = Roboto({
-//   weight: "400",
-//   subsets: ["latin"],
-//   display: "swap",
-// });
+export const metadata: Metadata = {
+  title: "Immigration Bot Demo App",
+  description:
+    "A web app with a chatbot and a FAQ integrating into the chatbot",
+};
 
 const roboto = localFont({
   src: "./fonts/Roboto-Regular.ttf",

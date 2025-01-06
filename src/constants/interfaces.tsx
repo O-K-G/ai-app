@@ -31,3 +31,12 @@ export interface DialogProps {
   ref: RefObject<HTMLDialogElement | null>;
   title: string;
 }
+
+export interface ErrorComponentProps {
+  buttonSlot: ReactNode;
+}
+
+export interface ErrorProps {
+  error: Error & { digest?: string };
+  reset: () => void;
+}
