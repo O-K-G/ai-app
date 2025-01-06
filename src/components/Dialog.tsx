@@ -2,6 +2,7 @@ import CancelIcon from "@icons/Cxl-icon";
 import { DialogProps } from "@constants/interfaces";
 
 const CANCEL_BUTTON_ARIA_LABEL = "Cancel";
+export const DIALOG_TEST_ID = "dialog-test-id";
 
 export default function Dialog({
   children,
@@ -10,6 +11,7 @@ export default function Dialog({
 }: DialogProps) {
   return (
     <dialog
+      data-testid={DIALOG_TEST_ID}
       ref={ref}
       className="bg-black/50 size-full backdrop-blur-xl text-white rounded-md p-4 shadow-blue-900 shadow-2xl"
     >
