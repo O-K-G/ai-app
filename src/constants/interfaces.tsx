@@ -1,7 +1,18 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
+
 import { ReactNode, RefObject } from "react";
 
 export interface AssistantContextProviderProps {
   children: ReactNode;
+}
+
+export interface AssistantContextType {
+  messages: { content: string; role: string; id: string }[];
+  input: string;
+  handleInputChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  handleSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
+  append: (e: { content: string; role: string }) => void;
 }
 
 export interface FormProps {
