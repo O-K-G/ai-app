@@ -13,9 +13,9 @@ export default function Dialog({
       ref={ref}
       className="bg-black/50 size-full backdrop-blur-xl text-white rounded-md p-4 shadow-blue-900 shadow-2xl"
     >
-      <div className="min-h-10 flex items-center justify-start">
+      <div className="min-h-10 flex flex-col items-start justify-center">
         <button
-          className="w-10 h-full group rounded-full outline-none border-4 border-transparent focus:border-blue-500"
+          className="w-10 h-full flex-center group rounded-full outline-none border-4 border-transparent focus:border-blue-500"
           type="button"
           aria-label={CANCEL_BUTTON_ARIA_LABEL}
           onClick={() => (ref.current as unknown as HTMLDialogElement).close()}
