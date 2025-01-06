@@ -6,11 +6,11 @@ This is a React & Next.js coding Challenge. It's a chatGPT client integration ca
 
 You can simply use the app by following this URL: https://ai-app-coral.vercel.app
 
-## Requirements for running the code in development:
+## Requirements for running the code in development
 
 1. Node.js 22.11.0 and above. https://nodejs.org/en/download
 
-## How to run it:
+## How to run it
 
 1. Clone from here: https://github.com/O-K-G/ai-app
 2. Unzip.
@@ -18,11 +18,11 @@ You can simply use the app by following this URL: https://ai-app-coral.vercel.ap
 4. Run `npm run dev`.
 5. In the browser, go to http://localhost:3000
 
-## Run the tests:
+## Run the tests
 
 1. Run `npm run test`.
 
-## Run the development build (with tests):
+## Run the development build (with tests)
 
 1. Run `npm run build`.
 2. Run `npm run start`.
