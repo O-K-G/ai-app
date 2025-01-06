@@ -9,6 +9,7 @@ export const AssistantContext = createContext({
   input: "",
   handleInputChange: () => null,
   handleSubmit: () => null,
+  append: (p0: { content: string; role: string }) => null,
 });
 
 export default function AssistantContextProvider({

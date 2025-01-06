@@ -5,5 +5,9 @@ import { useContext } from "react";
 export default function Form({ children }: FormProps) {
   const { handleSubmit } = useContext(AssistantContext);
 
-  return <form onSubmit={handleSubmit}>{children}</form>;
+  return (
+    <form onSubmit={handleSubmit} className="size-full">
+      {children}
+    </form>
+  );
 }
