@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+body:root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -28,10 +28,9 @@ body {
 
 @layer components {
   .chat-input {
-    @apply p-2 h-full w-full text-black rounded-md outline-none border-4 border-transparent focus:border-4 focus:border-blue-500;
+    @apply p-2 h-full w-full text-black rounded-md outline-none border-4 border-transparent focus:lg:border-blue-500;
   }
-
   .submit-button {
-    @apply outline-none focus:lg:rounded-md lg:border-4 lg:border-transparent focus:lg:border-blue-500;
+    @apply outline-none rounded-md border-4 border-transparent focus:lg:border-blue-500;
   }
 }

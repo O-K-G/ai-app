@@ -28,9 +28,9 @@ export default function Input({ placeholderValue }: InputProps) {
       <button
         type="submit"
         aria-label={SUBMIT_ARIA_LABEL}
-        className="group submit-button"
+        className="flex-center group submit-button"
       >
-        <SubmitIcon className="fill-gray-300 group-focus:fill-white h-full min-w-8 w-16" />
+        <SubmitIcon className="fill-gray-300 group-focus:fill-white h-full w-12" />
       </button>
     </div>
   );

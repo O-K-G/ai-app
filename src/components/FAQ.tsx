@@ -37,7 +37,8 @@ export default function Faq() {
   return (
     <div className="absolute top-0 left-0 ml-4 mt-10 lg:mt-4">
       <button
-        className="flex-center outline-none group"
+        className="flex-center outline-none border-4 border-transparent focus:lg:border-blue-500 group rounded-xl"
+        aria-label={DIALOG_TITLE}
         type="button"
         onClick={() =>
           (dialogRef.current as unknown as HTMLDialogElement).showModal()
